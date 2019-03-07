@@ -1,0 +1,66 @@
+<div class="container bg">
+	
+	<div class="row">
+	    <center><div class="center col-sm-12">
+			<img src="assets/img/burger-cartoon.jpg" alt="Burger App"width="250" height="250"></center>
+			<br>
+	    <center><h1>Sequelized Burger App</h1></center>
+	        <p></p>
+	    </div>
+  	</div>
+<br>
+
+<!---burgers available----->
+
+ <div class="container" id= "burgers available">
+			
+			<div class="col-sm-4">
+
+<div class="row1">
+
+<h2>Burgers that are to available to be devoured!</h2>
+
+<ul>
+  
+      
+
+							
+								{{> burgers/burger-block devour=false}}
+								
+								
+							
+   
+</ul>
+</div>
+</div> 
+<!---burger devoured----->
+
+<div class="col-sm-4">
+	<div class="row2">
+<h2>Burgers that are devoured!</h2>
+
+<ul>
+  
+      
+			      	
+{{> burgers/burger-devoured devour=true}}
+			      
+    
+</ul>
+</div>
+
+</div>
+
+<!---add a burger----->
+<div class = "row">
+ <div class="center col-sm-12">
+<center><h2>Add a New Burger</h2></center>
+<form class="create-form">
+            <div class="form-group">
+              <strong><label for="burger">Enter your new burger name:</label></strong>
+              <input type="text" class="form-control" id="ca" placeholder="">
+            </div>
+            <button class="btn btn-primary" type="submit">Add a burger</button>
+          </form>
+			</div>
+ </div>

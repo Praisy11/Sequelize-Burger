@@ -1,0 +1,14 @@
+{{#each burgers}}
+	{{#unless devoured}}
+<div>
+	<strong>{{id}}.{{burger_name}} </strong><br><br>
+
+	<button class="change-devour" data-id="{{id}}" data-newDevour="{{devour}}">
+		Devour it :-)
+	</button>
+
+	
+</div>
+
+{{/unless}}
+{{/each}}
