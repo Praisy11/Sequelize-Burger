@@ -1,1 +1,2 @@
 # Sequelize-Burger
+Its a Part 2 of (sequel) burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!)A full stack, MVC (Model-View-Controller) application that allows you to create/add burgers (POST), view a list of burgers available to eat (GET), devour burgers (PUT), and delete them after devoured (DELETE).have used se Node and MySQL to query and route data in your app, and Handlebars to generate your HTML. 
